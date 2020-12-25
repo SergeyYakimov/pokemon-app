@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import {Navbar} from './components/Navbar';
+import {Main} from './pages/Main';
 
 function App() {
   return (
-    <div className="container pt-4">
-      <h1>Pokemon App</h1>
-    </div>
+    <Fragment>
+      <Navbar/>
+      <div className="container pt-4">
+        <Main/>
+      </div>
+    </Fragment>
   );
 }
 
