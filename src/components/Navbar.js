@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 export const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-info">
@@ -7,10 +8,10 @@ export const Navbar = () => (
     </div>
     <ul className="navbar-nav">
       <li className="navbar-item">
-        <a href="/" className="nav-link">Главная</a>
+        <NavLink to="/" exact className="nav-link">Главная</NavLink>
       </li>
       <li className="navbar-item">
-        <a href="/list" className="nav-link">Список покемонов</a>
+        <NavLink to="/list" className="nav-link">Список покемонов</NavLink>
       </li>
     </ul>
   </nav>
