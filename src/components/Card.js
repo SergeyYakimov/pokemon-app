@@ -9,4 +9,4 @@ export const Card = () => (
       <Link to={`/pokemon/pikachu`} className="btn btn-info">Открыть</Link>
     </div>
   </div>
-)
+);

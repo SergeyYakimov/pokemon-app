@@ -21,4 +21,4 @@ export const Main = () => {
      </div>
     </Fragment>
   )
-}
+};
